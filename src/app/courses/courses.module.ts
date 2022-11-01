@@ -1,3 +1,4 @@
+import { SharedModule } from './../shared/shared.module';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
@@ -14,6 +15,7 @@ import { CoursesComponent } from './courses/courses.component';
     CommonModule,
     CoursesRoutingModule,
     AppMaterialModule,
+    SharedModule,
   ]
 })
 export class CoursesModule { }
